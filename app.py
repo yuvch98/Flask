@@ -8,7 +8,6 @@ import atexit
 import shutil
 import cv2
 from flasgger import Swagger
-
 # Initialize Flask app
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Required for session

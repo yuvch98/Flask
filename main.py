@@ -6,7 +6,3 @@ def load_and_test_models():
     ensure_model_download(const.ANOMALY_DETECTION_MODEL_FILE_ID, 'anomaly_detection_model.h5')
     ensure_model_download(const.ANOMALY_CLASSIFICATION_MODEL_FILE_ID, 'anomaly_classification_model.h5')
 
-
-if __name__ == '__main__':
-    load_and_test_models()
-    # app.main()
