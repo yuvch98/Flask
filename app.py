@@ -210,5 +210,5 @@ def cleanup_uploads_folder():
 atexit.register(cleanup_uploads_folder)
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+def main():
+    app.run(debug=False)
